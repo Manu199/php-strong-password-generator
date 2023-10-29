@@ -1,4 +1,6 @@
 <?php
+session_start(); // Inizia una sessione (assicurati che questa istruzione sia presente in functions.php)
+
 // Definisci una funzione per generare una password casuale
 function generateRandomPassword($length) {
     $minLength = 8;
